@@ -9,6 +9,3 @@ const assertEqual = function(actual, expected) {
 const head = function(array) {
   return array[0];
 };
-
-assertEqual(head([]), undefined);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
