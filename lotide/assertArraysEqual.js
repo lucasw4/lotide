@@ -12,9 +12,9 @@ const eqArrays = function (array1, array2) {
 }
 
 const assertArraysEqual = function (array1, array2, result) {
-  if (eqArrays(array1, array2) === result) {
-    return `🟢🟢 Assertion Passed: The result of comparing ${[array1]} && ${array2} === ${result}`
+  if (eqArrays(array1, array2) === true) {
+    return `🟢🟢 Assertion Passed: The result of comparing ${array1} && ${array2} === true`
   } else {
-    return `🔴🔴 Assertion Failed: $The result of comparing ${array1} && ${array2} !== ${result}`
+    return `🔴🔴 Assertion Failed: $The result of comparing ${array1} && ${array2} !== true`
   }
 }

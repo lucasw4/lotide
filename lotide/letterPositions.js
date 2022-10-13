@@ -33,5 +33,5 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-assertArraysEqual(letterPositions("gooba").o, [1, 2], true);
+console.log(assertArraysEqual(letterPositions("gooba").o, [1, 2], true));
 console.log(letterPositions("lighthouse in the house"));

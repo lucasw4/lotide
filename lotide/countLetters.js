@@ -19,9 +19,3 @@ const countLetters = function(string) {
   }
   return letters;
 };
-
-let test = countLetters('we are coding today');
-console.log(test);
-assertEqual(test["w"], 1);
-assertEqual(test["z"], undefined);
-assertEqual(test["o"], 2);
