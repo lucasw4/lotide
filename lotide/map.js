@@ -1,8 +1,8 @@
 /**
- * 
- * @param {*} array 
- * @param {*} callBackFn 
- * @returns 
+ *
+ * @param {*} array
+ * @param {*} callBackFn
+ * @returns
  */
 
 // Returns new array with callbackFN applied to each element of given array

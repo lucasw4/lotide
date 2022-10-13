@@ -1,17 +1,16 @@
-const assert = require('chai').assert
 /**
- * 
- * @param {*} array 
- * @returns 
+ *
+ * @param {*} array
+ * @returns
  */
 
 // Flattens an array with one nested array into non nested array
 const flatten = function(array) {
-  let flattenedArray = []
+  let flattenedArray = [];
   array.forEach(ele => {
-    if(Array.isArray(ele)) {
+    if (Array.isArray(ele)) {
       ele.forEach(element => {
-        flattenedArray.push(element)
+        flattenedArray.push(element);
       });
     } else {
       flattenedArray.push(ele);
@@ -20,4 +19,4 @@ const flatten = function(array) {
   return flattenedArray;
 };
 
-module.exports = flatten; 
+module.exports = flatten;

@@ -1,4 +1,4 @@
-const eqArrays = function (array1, array2) {
+const eqArrays = function(array1, array2) {
   // Takes two arrays and returns true or false if they are equal or not
   if (array1.length !== array2.length) {
     return false;
@@ -10,6 +10,6 @@ const eqArrays = function (array1, array2) {
     }
   }
   return true;
-}
+};
 
 module.exports = eqArrays;
