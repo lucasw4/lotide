@@ -41,3 +41,5 @@ The following functions are currently implemented:
 * `assertObjectsEqual(actual, expected)`: logs to the console if the actual object === the expected object
 * `assertEqual(actual, expected)`: returns true if actual result === expected result, and false for the inverse
 * `assertArraysEqual(actual, expected)`: returns true if actual array === expected array, and false for the inverse
+* `without(array, itemsToRemove)`: returns a new array with items fro the ItemsToRemove array removed
+* `takeUntil(array, callBackFunction)`: returns a new array with all items taken out until the callbackFunction is true
