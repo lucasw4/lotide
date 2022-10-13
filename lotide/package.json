@@ -1,0 +1,18 @@
+{
+  "name": "@lucasw4/lotide",
+  "version": "1.0.0",
+  "description": "a small clone of the lodash library as a project for lighthouse labs",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}
